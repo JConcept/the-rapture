@@ -14,20 +14,20 @@
         <link href="<?php asset('css/mobile.css');?>" rel="stylesheet" media="(max-width:1200px)">
     </head>
     <body>
-    
+
         <a class="mobile_menu black" data-open="nav14" id="mobile_menu"></a>
-        
+
         <nav class="nav14" id="nav">
             <a class="mobile_menu_close black"></a>
             <div class="container">
                 <a href="#" class="nav5_logo">The <i>Rapture</i> Startup</a>
-                
+
                 <div class="right">
                     <a class="header14_icon notification">Notifications</a>
                     <a class="header14_icon messages">Messages</a>
-                    <a class="header14_user"><img src="<?php asset('i/header14_user.jpg');?>" alt="" />Denis Shepovalov</a>
+                    <a class="header14_user"><img src="<?php asset('i/header14_user.jpg');?>" alt="" /><?php echo $user->firstname . ' ' . $user->lastname; ?></a>
                 </div>
-                
+
                 <div class="mobile_socials black">
                     <a href="#" target="_blank" class="fb"></a>
                     <a href="#" target="_blank" class="gp"></a>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </nav>
-        
+
         <header class="header5 header14" id="header14">
             <div class="video">
                 <video>
@@ -45,7 +45,7 @@
                 </video>
                 <a href="#" class="header5_pause"></a>
             </div>
-            
+
             <div class="container">
                 <div class="header5_pretitle">Find the <i>Best</i> Deals and make</div>
                 <h1>The <i>Ultimate</i> Travel</h1>
@@ -72,21 +72,21 @@
                 <div class="clr"></div>
             </div>
         </header>
-        
-        
-        
+
+
+
         <section class="sec1_14">
             <div class="container">
                 <h2>Explore <i>the</i> World</h2>
                 <div class="sec1_14_text">See where people are traveling, all around the world.</div>
-                
+
                 <div class="sec1_14_row">
                     <a class="sec1_14_block big" style="background-image:url(<?php asset('i/sec1_14_img1.jpg');?>);">
                         <div class="header11_pretitle green">$599</div>
                         <div class="title">Brussels</div>
                         <div class="subtitle">Belgium</div>
                     </a>
-                    
+
                     <a class="sec1_14_block medium" style="background-image:url(<?php asset('i/sec1_14_img2.jpg');?>);">
                         <div class="header11_pretitle black">$49</div>
                         <img src="<?php asset('i/sec1_14_author1.jpg');?>" alt="" />
@@ -94,28 +94,28 @@
                         <div class="subtitle">New York</div>
                     </a>
                 </div>
-                
+
                 <div class="sec1_14_row">
                     <a class="sec1_14_block small nobg">
                         <div class="pretitle">Best Choise</div>
                         <div class="title">Get Some <br />Fun <i>In</i> <br />Europe</div>
                         <div class="sec3_5_btn">View Deals</div>
                     </a>
-                    
+
                     <a class="sec1_14_block medium" style="background-image:url(<?php asset('i/sec1_14_img4.jpg');?>);">
                         <div class="header11_pretitle black">$129</div>
                         <img src="<?php asset('i/sec1_14_author2.jpg');?>" alt="" />
                         <div class="title">Hosted <i>by</i> Andrew</div>
                         <div class="subtitle">San Francisco</div>
                     </a>
-                    
+
                     <a class="sec1_14_block small" style="background-image:url(<?php asset('i/sec1_14_img5.jpg');?>);">
                         <div class="header11_pretitle green">$499</div>
                         <div class="title">Rome</div>
                         <div class="subtitle">Italy</div>
                     </a>
                 </div>
-                
+
                 <div class="sec1_14_row">
                     <a class="sec1_14_block medium" style="background-image:url(<?php asset('i/sec1_14_img6.jpg');?>);">
                         <div class="header11_pretitle black">$39</div>
@@ -123,21 +123,21 @@
                         <div class="title">Hosted <i>by</i> Devin <i>&</i> Jessica</div>
                         <div class="subtitle">London</div>
                     </a>
-                    
+
                     <a class="sec1_14_block big" style="background-image:url(<?php asset('i/sec1_14_img7.jpg');?>);">
                         <div class="header11_pretitle green">$299</div>
                         <div class="title">Chicago</div>
                         <div class="subtitle"> USA</div>
                     </a>
                 </div>
-                
+
                 <div class="clr"></div>
-                
+
                 <a class="sec3_5_btn red sec1_14_btn">View All Travels</a>
-                
+
             </div>
         </section>
-        
+
         <section class="sec2_14">
             <div class="container">
                 <div class="left">
@@ -145,10 +145,10 @@
                     <div class="sec2_14_text">Earn money sharing your extra space with travelers.</div>
                 </div>
                 <a href="#" class="sec4_5_btn">See How You Can Earn</a>
-                <div class="clr"></div>             
+                <div class="clr"></div>
             </div>
         </section>
-        
+
         <section class="sec3_14">
             <div class="container">
                 <img src="<?php asset('i/bg_sec3_14.jpg');?>" alt="" class="bg_sec3_14" />
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="header5 sec4_14" id="sec4_14">
             <div class="video">
                 <video>
@@ -169,7 +169,7 @@
                 </video>
                 <a href="#" class="header5_pause"></a>
             </div>
-            
+
             <div class="container">
                 <div class="header5_pretitle">The Rapture Startup</div>
                 <h1>Your <i>Home</i>, Everywhere</h1>
@@ -179,18 +179,24 @@
                 <a href="#" class="sec3_5_btn">Start Exploring</a>
             </div>
         </section>
-        
+
         <section class="sec5_14">
             <div class="container">
                 <img src="<?php asset('i/sec5_14_icon.png');?>" alt="" class="sec5_14_icon" />
                 <h2>Today's Most <i>Popular</i> Places</h2>
                 <div class="sec1_13_text">In your destination, Rapture transforms from your travel agent to your local concierge. We make vetted recommendations for your dining and activities.</div>
                 <div class="flex">
+
+                <!-- Commencer ma boucle -->
+                <?php
+                    foreach ($places as $place): // pour chaque éléments qui se trouve dans mon tableau places, je le stocke dans la variable place (ou ce qu'on veut)
+                ?>
+
                     <div class="sec5_14_block">
-                        <a><img src="<?php asset('i/sec5_14_img1.jpg');?>" alt="" /></a>
-                        <a class="title"><i>Royal Plaza Hotel</i></a>
-                        <div class="subtitle">Hong Kong</div>
-                        <div class="text">Centrally located in Mongkok atop the Mong Kok East MTR subway station, the luxurious Royal Plaza Hotel offers direct access to MOKO, a large shopping mall with over 200...</div>
+                        <a><img src="<?php asset('i/sec5_14_img1.jpg'); //ici mettre : $place->pictures?>" alt="" /></a>
+                        <a class="title"><i><?php echo $place->title; ?></i></a>
+                        <div class="subtitle"><?php echo $place->city; ?></div>
+                        <div class="text"><?php echo $place->description; ?></div>
                         <div class="bottom">
                             <div class="star"></div>
                             <div class="star"></div>
@@ -201,56 +207,17 @@
                         </div>
                         <div class="clr"></div>
                     </div>
-                    <div class="sec5_14_block">
-                        <a><img src="<?php asset('i/sec5_14_img2.jpg');?>" alt="" /></a>
-                        <a class="title"><i>Hotel Quirinale</i></a>
-                        <div class="subtitle">Rome</div>
-                        <div class="text">In a 19th-century building, the Quirinale is a 10-minute walk from the Colosseum. This historic hotel is connected to Rome Opera House through a passageway in its leafy...</div>
-                        <div class="bottom">
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <a class="sec3_4_link">Book</a>
-                        </div>
-                        <div class="clr"></div>
-                    </div>
-                    <div class="sec5_14_block">
-                        <a><img src="<?php asset('i/sec5_14_img3.jpg');?>" alt="" /></a>
-                        <a class="title"><i>Row NYC</i></a>
-                        <div class="subtitle">New York</div>
-                        <div class="text">In the Theater District and within a short walk of Times Square, this hotel features a fitness center and concierge service. Rockefeller Center is a short walk away.</div>
-                        <div class="bottom">
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <a class="sec3_4_link">Book</a>
-                        </div>
-                        <div class="clr"></div>
-                    </div>
-                    <div class="sec5_14_block">
-                        <a><img src="<?php asset('i/sec5_14_img4.jpg');?>" alt="" /></a>
-                        <a class="title"><i>Baan Laimai</i></a>
-                        <div class="subtitle">Thailand</div>
-                        <div class="text">Baan Laimai Resort occupies a prime position in Patong’s shopping district, steps from popular Patong Beach. It features a large lagoon pool with pool bar, free Wi-Fi and...</div>
-                        <div class="bottom">
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <div class="star"></div>
-                            <a class="sec3_4_link">Book</a>
-                        </div>
-                        <div class="clr"></div>
-                    </div>
+
+                <?php
+                    endforeach;
+                ?>
+                <!-- Terminer ma boucle -->
+
                 </div>
                 <a href="#" class="sec4_5_btn blue">View All Places</a>
             </div>
         </section>
-        
+
         <section class="sec6_14">
             <div class="container">
                 <div class="block">
@@ -263,7 +230,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="sec7_14">
             <div class="container">
                 <h2>We Love <i>Our</i> People</h2>
@@ -287,7 +254,7 @@
                 </div>
             </div>
         </section>
-        
+
         <footer class="footer14">
             <div class="container">
                 <div class="col col270">
@@ -333,7 +300,7 @@
                     <a>Site Map</a>
                 </div>
                 <div class="clr"></div>
-                
+
             </div>
             <div class="footer14_bottom">
                 <div class="container">
@@ -347,7 +314,7 @@
                 </div>
             </div>
         </footer>
-        
+
         <script src="<?php asset('js/jquery.min.js');?>"></script>
         <script src="<?php asset('js/bootstrap.min.js');?>"></script>
         <script src="<?php asset('js/bxslider.js');?>"></script>

@@ -10,3 +10,5 @@
 require_once(SITE_PATH . 'Site.php');
 require_once(SITE_PATH . 'Controllers/HomeController.php');
 require_once(SITE_PATH . 'Models/User.php');
+require_once(SITE_PATH . 'Models/Place.php'); // Ajouter tous les modèles créé, pour qu'ils soient chargé
+require_once(SITE_PATH . 'Models/Trip.php');
