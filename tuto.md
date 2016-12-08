@@ -42,7 +42,7 @@ use \SGBD\Sites\Rapture\Models\Trip;
 var_dump($data['trips']); die();
 ```
 
-[![Allez vers la vidéo de tuto](./tuto-assets/op1.swf)](./tuto-assets/op1.swf "video")
+[![Allez vers la vidéo de tuto](./tuto-assets/op1.swf)](http://jconcept.be/hepl/the-rapture/op1.swf "Allez vers la vidéo de tuto")
 
 ### Modèle réappliquable
 Maintenant faisons un TODO plus général :
