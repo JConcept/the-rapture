@@ -1,7 +1,7 @@
 # the-rapture
 Simple PHP project - learning templating and applying basic SQL requests
 
-This is a tutorial in french (sorry) for install a virtual server for students of [@hepl](https://github.com/hepl-web).
+This is a tutorial in french (sorry) for students of [@hepl](https://github.com/hepl-web).
 
 Original work on : https://github.com/hepl-sgc/the-rapture
 
